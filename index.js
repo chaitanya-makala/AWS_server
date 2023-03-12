@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.use("/home", (req, res) => {
-  res.send("Hello from the first server!");
+  res.send("Hello from the 1st server!");
 });
 
 app.listen(3000, () => {
